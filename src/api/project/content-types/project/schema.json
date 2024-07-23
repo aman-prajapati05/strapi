@@ -1,0 +1,235 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "section1_short_desc": {
+      "type": "richtext"
+    },
+    "section1_category": {
+      "type": "string"
+    },
+    "section1_bg_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "project_link": {
+      "type": "text"
+    },
+    "route": {
+      "type": "string"
+    },
+    "services": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "section1_textColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "section2_logo_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "section2_long_desc": {
+      "type": "richtext"
+    },
+    "Service1": {
+      "type": "string"
+    },
+    "Service2": {
+      "type": "string"
+    },
+    "Service3": {
+      "type": "string"
+    },
+    "section2_bgColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "section2_textColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "section3_bg_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "section4_textColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "section4_bgColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "section5_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "section5_desc": {
+      "type": "text"
+    },
+    "section5_bgColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "section5_textColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "section6_title": {
+      "type": "string"
+    },
+    "section6_desc": {
+      "type": "richtext"
+    },
+    "section6_bgColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "section6_textColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "section7_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "section7_bgColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "section8_tagline": {
+      "type": "string"
+    },
+    "section8_bgColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "Section8_textColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "section9_imgs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "section10_title": {
+      "type": "string"
+    },
+    "section10_desc": {
+      "type": "richtext"
+    },
+    "section10_bgColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "section10_textColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "section11_imgs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "featuredproject": {
+      "displayName": "featuredproject",
+      "type": "component",
+      "repeatable": false,
+      "component": "text.featuredproject"
+    },
+    "featuredproject2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.featuredproject"
+    },
+    "featuredproject3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.featuredproject"
+    },
+    "featuredproject4": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.featuredproject"
+    }
+  }
+}

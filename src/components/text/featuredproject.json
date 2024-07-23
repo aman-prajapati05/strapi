@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_text_featuredprojects",
+  "info": {
+    "displayName": "featuredproject"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bg_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "category": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "short_desc": {
+      "type": "richtext"
+    }
+  }
+}
